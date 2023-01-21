@@ -36,6 +36,7 @@
 		"react/no-unknown-property": ["error", { "ignore": ["css"] }],
 		"no-console": "off",
 		"eslint-disable-next-line": "off",
-		"import/prefer-default-export": "off"
+		"import/prefer-default-export": "off",
+		"react/require-default-props": "off"
 	}
 }
