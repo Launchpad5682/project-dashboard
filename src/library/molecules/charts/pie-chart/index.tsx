@@ -103,6 +103,8 @@ export function PieChart(props: PieChartProps) {
 				display: 'flex',
 				flexDirection: 'column',
 				width: '100%',
+				minHeight: 0,
+				height: '100%',
 				paddingBottom: '10px',
 				flexWrap: 'wrap',
 			}}
