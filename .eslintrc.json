@@ -29,7 +29,7 @@
 	},
 	"rules": {
 		"react/react-in-jsx-scope": "off",
-		"camelcase": "error",
+		"camelcase": "off",
 		"spaced-comment": "error",
 		"quotes": ["error", "single"],
 		"no-duplicate-imports": "error",
@@ -37,6 +37,11 @@
 		"no-console": "off",
 		"eslint-disable-next-line": "off",
 		"import/prefer-default-export": "off",
-		"react/require-default-props": "off"
+		"react/require-default-props": "off",
+		"react/jsx-props-no-spreading": "off",
+		"import/no-extraneous-dependencies": "off",
+		"react/no-array-index-key": "off",
+		"import/order": "off",
+		"no-nexted-ternary": "off"
 	}
 }
